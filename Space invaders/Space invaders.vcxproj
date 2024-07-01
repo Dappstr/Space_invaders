@@ -133,7 +133,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="alien.cpp" />
+    <ClCompile Include="block.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="laser.cpp" />
+    <ClCompile Include="mystery_ship.cpp" />
+    <ClCompile Include="obstacle.cpp" />
     <ClCompile Include="Space invaders.cpp" />
+    <ClCompile Include="spaceship.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alien.hpp" />
+    <ClInclude Include="block.hpp" />
+    <ClInclude Include="game.hpp" />
+    <ClInclude Include="laser.hpp" />
+    <ClInclude Include="mystery_ship.hpp" />
+    <ClInclude Include="obstacle.hpp" />
+    <ClInclude Include="spaceship.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
